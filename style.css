@@ -1,0 +1,262 @@
+p{
+   font-family: 'Courier New', Courier, monospace;
+    color: #1E1C6A;
+    font-size: small;
+}
+
+.logo{
+    height: 150px;
+    padding-left: 50%;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    
+}
+
+.navbox{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    
+}
+.navmenu{
+    text-decoration: none;
+    list-style: none;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+}
+.navbox ul li{
+    float: left;
+}
+.navbox ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+}
+
+.Ethics{
+    width: 50%;
+    padding: 30px;
+    padding-right: 80px;
+    padding-top: 0;
+}
+.acknowledge{
+    width: 50%;
+    padding: 30px;
+    padding-left: 80px;
+    padding-top: 0;
+
+}
+.styled-line{
+    border: none;
+    background: #191e39;
+    height: 2px;
+    border-radius: 2px;
+}
+html{
+  background-color: white;
+   background-repeat: no-repeat;
+background-attachment: fixed;
+
+}
+.banner{
+    height: 600px;
+    width: auto;
+    margin: auto;
+text-align: center;
+padding-top: 50px;
+}
+
+.card{
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(12px) saturate(180%); 
+    -webkit-backdrop-filter: blur(12px) saturate(180%);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    height: auto;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: all 0.3s ease;
+}
+.card:hover {
+  background: rgba(255, 255, 255, 0.35); /* slightly brighter on hover */
+  transform: translateY(-4px);
+}
+.researchteam{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    padding: 20px;
+    align-items: start;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.card img{
+    width: 150px;
+    height: 150px;
+}
+.navmenu{
+display: flex;
+}
+h2{
+
+    font-family: 'Barlow';
+    font-weight: 80;
+}
+nav{
+    background-color: rgb(60, 60, 66);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1600px;
+}
+
+.navmenu{
+  display: flex;
+}
+
+/* footer base */
+footer {
+  background:#0a0033;
+  color:#fff;
+  padding:2rem 5%;
+  font-family: Arial, sans-serif;
+}
+
+/* thin top rule */
+.styled-line{
+  border:none;
+  height:2px;
+  background:#444;
+  margin-bottom:1.5rem;
+}
+
+/* left/right columns */
+.footer-container{
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-start;
+  gap:2rem;
+  flex-wrap:wrap;           /* responsive */
+}
+
+/* menu is white */
+.navmenu ul{
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+.navmenu li,
+.navmenu b { color:#fff; }  /* “Menu” label and list items */
+.navmenu a{
+  color:#fff;               /* links white */
+  text-decoration:none;
+  opacity:.9;
+}
+.navmenu a:hover{ opacity:1; }
+
+/* right column with logos + acknowledgement */
+.logos-block{
+  margin-left:auto;         /* push to the right */
+  text-align:right;
+  max-width:1200px;          /* keep a tidy column width */
+}
+
+/* keep logos same size as before */
+.logos-row{
+  display:flex;
+  gap:1rem;
+  justify-content:flex-end;
+  align-items:center;
+  flex-wrap:wrap;
+}
+
+.logo{
+  height:150px;              /* same visual size */
+  display:block;
+  max-width:100%;
+}
+
+/* acknowledgement sits under logos */
+.acknowledge{
+  margin-top:0.2rem;
+  margin-left: auto;
+  font-size:.9rem;
+  line-height:1.5;
+  color:#d0d0d0;
+  text-align:right;         /* align with logos */
+}
+
+/* copyright */
+.copyright{
+  text-align:center;
+  margin-top:2rem;
+  font-size:.8rem;
+  color:#9a9a9a;
+}
+
+/* responsive: stack right column under menu on small screens */
+@media (max-width: 900px){
+  .footer-container{ flex-direction:column; align-items:flex-start; }
+  .logos-block{ text-align:left; }
+  .acknowledge{ text-align:left; }
+  .logos-row{ justify-content:flex-start; }
+}
+
+.copyright a{
+    
+    color: #9a9a9a;
+}
+h1{
+    font-size: 50px;
+    font-family: ;
+}
+
+button{
+    color: white;
+    background-color: rgb(60, 60, 66);
+    border-radius: 0;
+    padding: 15px;
+    box-shadow: none;
+    border: none;
+}
+.cycles{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    padding: 20px;
+    align-items: start;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(12px) saturate(180%); 
+    -webkit-backdrop-filter: blur(12px) saturate(180%);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    height: auto;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: all 0.3s ease;
+}
